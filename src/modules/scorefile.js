@@ -1,18 +1,18 @@
-import { getAll } from "./LoadScore.js";
+import { getAll } from './LoadScore';
 
-const scoreList = document.getElementById("score-list");
-const input = document.getElementById("input-name");
-const inputScore = document.getElementById("input-score");
+const scoreList = document.getElementById('score-list');
+const input = document.getElementById('input-name');
+const inputScore = document.getElementById('input-score');
 
 const scoreFromUser = () => {
   const requestUrl = {
-    method: "POST",
+    method: 'POST',
     headers: {
-      "Content-type": "application/json; charset = UTF-8",
+      'Content-type': 'application/json; charset = UTF-8',
     },
     body: JSON.stringify({
       user: input.value.trim(),
-      score: inputScore.value.trim()
+      score: inputScore.value.trim(),
     }),
   };
   return requestUrl;
@@ -23,4 +23,4 @@ const loadScore = async (url) => {
   scoreList.innerHTML = result.sort((a, b) => b.score - a.score).map((score) => `<li>${score.user} : ${score.score}</li>`).join('');
 };
 
-export { scoreFromUser, loadScore};
+export { scoreFromUser, loadScore };

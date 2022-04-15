@@ -1,6 +1,6 @@
 import './style.css';
-import {  scoreFromUser, loadScore} from './modules/scorefile.js';
-import { addScore } from './modules/LoadScore.js';
+import { scoreFromUser, loadScore } from './modules/scorefile';
+import { addScore } from './modules/LoadScore';
 
 const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/YvROzDLTaXMHYmb2h2u2/scores';
 const btnRefresh = document.getElementById('refresh-score-btn');
