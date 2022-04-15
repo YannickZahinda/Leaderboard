@@ -7,14 +7,15 @@
 body {
   display: flex;
   justify-content: center;
-  background-color: rgb(161, 159, 159);
+  background-color: rgb(136, 175, 178);
 }
 
 .wrapper {
   margin: 4rem;
   width: 70%;
-  border: 3px solid #000;
-  background-color: #fff;
+  background-color: rgb(199, 219, 221);
+  border-radius: 20px;
+  box-shadow: 10px 0 10px rgba(0, 0, 0, 0.803);
 }
 
 .content {
@@ -64,6 +65,7 @@ section {
   padding: 5px;
   border: 3px solid #000;
   margin-bottom: 6px;
+  border-radius: 7px;
 }
 
 footer {
@@ -71,6 +73,8 @@ footer {
   background-color: rgb(85, 83, 83);
   height: 40px;
   width: 100%;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
 }
 
 #submit-score-btn {
@@ -80,9 +84,19 @@ footer {
   padding: 4px;
 }
 
+#submit-score-btn:hover {
+  cursor: pointer;
+  color: rgb(119, 117, 117);
+}
+
 #refresh-score-btn {
   border: 2px solid #000;
   box-shadow: 3px 3px 1px #000;
   padding: 4px;
   margin-left: 5px;
+}
+
+#refresh-score-btn:hover {
+  cursor: pointer;
+  color: rgb(119, 117, 117);
 }
