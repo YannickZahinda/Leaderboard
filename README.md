@@ -7,6 +7,11 @@ Leader board is a simple app that allows the user to record his name and his sco
 - Major languages used : HTML, CSS, JAVASCRIT;
 - Technologies used : Webpack, Leaderboard API service
 
+# Screenshot of the project 
+
+<img width="1124" alt="Screen Shot 2022-04-15 at 17 49 33" src="https://user-images.githubusercontent.com/91213045/163592072-8f00ccc2-4cbf-41bd-8354-d3d482575f27.png">
+
+
 # Deployment 
 
 [link to my project](https://yannickzahinda.github.io/Leaderboard/)
