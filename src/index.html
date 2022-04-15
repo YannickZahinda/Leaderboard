@@ -18,7 +18,7 @@
                     <h2> Recent scores </h2>
                     <button type="button" id="refresh-score-btn"> Refresh </button>
                   </div>
-                  <ul class="score-list">
+                  <ul class="score-list" id="score-list">
                       <li>Name : 100</li>
                       <li>Name : 50</li>
                       <li>Name : 70</li>
@@ -29,8 +29,8 @@
                 <div class="add-score">
                  <div> <h1>Add your score</h1></div>
                   <form id="my-form">
-                      <input type="text" placeholder="Your name">
-                      <input type="number" placeholder="Your score">
+                      <input type="text" placeholder="Your name" id="input-name">
+                      <input type="number" placeholder="Your score" id="input-score">
                       <button type="submit" id="submit-score-btn">Submit</button>
                   </form>  
                 </div>
